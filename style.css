@@ -1,0 +1,35 @@
+/* fuentes personalizada */
+*{
+    font-family: 'montserrat', sans-serif;
+}
+
+.bg-primary{
+    background-color: #072c1d !important;
+}
+
+.text-blue{
+    color: #072c1d !important;
+}
+
+.rounded-circle{
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important;
+}
+
+.card{
+    transform: translateY(0px) !important;
+    transition: all 0.3s ease-in-out;
+    border: #2c3c58 1px medium !important;
+}
+
+.card:hover{
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-10px) !important;
+    -webkit-transform: translateY() ;
+    -moz-transform: translateY() ;
+    -ms-transform: translateY() ;
+    -o-transform: translateY() ;
+}
